@@ -1,0 +1,37 @@
+header {
+    background-color: #eb120b;
+    color: #ffffff;
+    margin: 10px;
+    padding: 15px;
+    border: 3px solid #f30808;
+}
+
+main {
+    background-color: #e6f0ff;
+    color: #5a0707;
+    margin: 10px;
+    padding: 15px;
+    border: 3px solid #a54242;
+}
+
+footer {
+    background-color: #f30202;
+    color: #ffffff;
+    margin: 10px;
+    padding: 15px;
+    border: 3px solid #fa0a0a;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.destaque {
+    font-style: italic;
+    background-color: #ffffcc;
+}
+
+#importante {
+    border-top: 5px solid #cc0000;
+}
