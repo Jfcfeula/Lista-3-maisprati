@@ -1,6 +1,6 @@
 # Lista-3-maisprati
 
-Este repositório contém uma lista de exercícios desenvolvidos para a disciplina de Desenvolvimento Web, focando em HTML, CSS e JavaScript.
+Este repositório contém uma lista de exercícios desenvolvidos para o curso de desenvolvimento full stack, focando em HTML, CSS e JavaScript.
 
 ## Estrutura do Projeto
 
