@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria Responsiva</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .galeria-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    .item {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .item p {
+      padding: 10px;
+      margin: 0;
+      background-color: #fafafa;
+      font-size: 14px;
+    }
+    @media (max-width: 992px) {
+      .galeria {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .galeria {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .galeria {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="galeria-container">
+    <div class="galeria">
+      <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdH-KIz5Us8QN5bnteyRk0HYdJZSbCexpQHg&s" alt="Escudo do Paro Football Club com um leão dourado, uma bola de futebol e o Mosteiro do Ninho do Tigre ao fundo">
+        <p>Paro, um time da primeira divisão de Butão</p>
+      </div>
+      <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Fosa_Juniors_logo.jpg" alt="Escudo circular do Fosa Juniors Football Club com a silhueta de uma fossa, animal típico de Madagascar, em branco sobre fundo preto.">
+        <p>Fosa Juniors, um time da primeira divisão de Madagascar</p>
+      </div>
+      <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFER_Nj4LI7sxRAhY3iSl4MKYKbFTKiqrpxw&s" alt="Escudo do clube Tre Penne com três torres amarelas sob fundo listrado em azul e branco, com o nome 'Tre Penne' no topo e o ano 1956 na base.">
+        <p>Tre Penne, um time da primeira divisão de San Marino</p>
+      </div>
+      <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/8/89/Escudo_do_Labasa_FC.png" alt="Escudo do Labasa FA com listras verticais vermelhas e brancas, a cabeça de um leão ao centro, uma estrela vermelha no topo e na base, e a inscrição 'Est 1938'.">
+        <p>Labasa, um time da primeira divisão de Fiji</p>
+      </div>
+      <div class="item">
+        <img src="https://www.ogol.com.br/img/logos/equipas/229560_imgbank_1687513898.png" alt="Escudo moderno do Pacific FC com formato geométrico em roxo e azul-turquesa, com as letras 'PFC' e um tridente apontando para cima na base.">
+        <p>Pacific, um time da primeira divisão do Canadá</p>
+      </div>
+      <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_mKnwwOalApHNLUelTcTqNTw_BhaTJUgeIQ&s" alt="Escudo do Cibao Futbol Club com fundo laranja, cinco estrelas no topo, faixas diagonais laranjas sobre fundo preto, um monumento central com uma bola de futebol na base e as letras 'CFC'.">
+        <p>Cibao, um time da primeira divisão da República Dominicana</p>
+      </div>
+      <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/9/98/Escudo_Batel_Guarapuava.png" alt="Escudo do Clube Atlético Batel do Paraná, com formato oval, faixa diagonal vermelha sobre fundo branco, estrelas douradas na parte superior e nome do clube em letras pretas.">
+        <p>Batel, o campeão de 2024 da terceira divisão estadual do Paraná. Eliminado nas quartas de final da Segundona de 2025</p>
+      </div>
+      <div class="item">
+        <img src="https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2025/03/11/gabriel-bortoleto-s4xel7gqh0f8.jpg" alt="Gabrie0l Bortoleto apontando para o peito com o dedo indicador, enquanto usa o uniforme verde e preto da Sauber.">
+        <p>Gabriel Bortoleto, único brasileiro no grid da Fórmula 1</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
